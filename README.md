@@ -59,6 +59,7 @@ You can control the website through environment variables.
 | `HEAD_SCRIPTS` | Inject analytics or other scripts before `</head>` of the page | ❌ |
 | `PUBLIC_SECRET_KEY` | Secret string for the project. Use for generating signatures for API calls | ❌ |
 | `SITE_PASSWORD` | Set password for site, support multiple password separated by comma. If not set, site will be public | ❌ |
+| `GEMINI_MODEL_NAME` | Customize the Gemini model to use. Defaults to `gemini-2.5-flash` if not set | ❌ |
 
 ## Running Locally
 
@@ -112,3 +113,9 @@ This project is inspired by and based on the following open-source project:
 If this repo is helpful to you, buy me a coffee,thank you very much!😄
 
 <a href="https://www.buymeacoffee.com/babaohuang" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+## Recommended AI Tools
+
+[ChatGPT Study Mode](https://gptstudymode.com?utm_source=geminiprochatgithub)
+
+[ElevenMusic | World's best AI music generator](https://elevenmusic.ai?utm_source=geminiprochatgithub)
